@@ -3,7 +3,7 @@ package ResponseModels;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class AddBookResponse {
+public class AddBookResponse() {
     @JsonProperty("Msg")
     private String msg;
 
